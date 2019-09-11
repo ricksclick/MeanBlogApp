@@ -1,0 +1,35 @@
+{
+  "name": "blogserver",
+  "version": "1.0.0",
+  "description": "This is a server app for a client blog app build in angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricksclick/MeanBlogApp.git"
+  },
+  "keywords": [
+    "MEAN",
+    "Stack",
+    "Blog",
+    "App",
+    "MEAN",
+    "Stack",
+    "Angular",
+    "Blog",
+    "App",
+    "Blog",
+    "App"
+  ],
+  "author": "Prithvi Mohanty",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ricksclick/MeanBlogApp/issues"
+  },
+  "homepage": "https://github.com/ricksclick/MeanBlogApp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
