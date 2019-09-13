@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+.header, .marketing, .footer {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+    /* Remove the padding we set earlier */
+    .header, .marketing, .footer {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    /* Space out the masthead */
+    .header {
+      margin-bottom: 2rem;
+    }
+    .jumbotron {
+      border-bottom: 0;
+    }
+  }

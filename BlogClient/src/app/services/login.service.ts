@@ -18,10 +18,7 @@ export class LoginService {
   validateLogin(user: User) {
     return this.http.post('/api/user/login', user, {
       headers: this.headers
-    }).pipe(
-      map(this.extractData),
-      catchError(this.handleError)
-    );
+    })
   }
 
   private extractData(response: Response) {

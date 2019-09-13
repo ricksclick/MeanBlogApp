@@ -35,8 +35,7 @@ app.post('/api/user/login', (req, res) => {
             throw err;
         } else {
             console.log(docs);
-            if (docs.indexOf(req.body) > -1) {
-
+            if (docs.length === 1 && docs[0].username === req.body.username && docs[0].password === req.body.password) {
                 res.send({
                     status: 200,
                     message: "login successful"
